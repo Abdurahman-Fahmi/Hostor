@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Detail_Location"
+        android:text="Location"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/lavender"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detailImage"
+            android:src="@drawable/uploadimg" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Room Type"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/Detail_RoomType"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Internet"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/Detail_Internet"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Park"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/Detail_Park"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Food"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/Detail_Food"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Residential"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/Detail_Residential"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Price"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/Detail_Price"
+        android:textSize="18sp"
+        android:textColor="@color/lavender"/>
+</LinearLayout>

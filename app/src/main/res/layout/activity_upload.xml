@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/lavender_border"
+        android:padding="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/upload"
+            android:id="@+id/uploadImage"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/spinnerLocation"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="20"
+                android:background="@drawable/lavender_border_text"
+                android:hint="Add a caption..."
+                android:padding="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:background="@drawable/lavender_border_text">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/secular"
+                    android:text="Room Type:" />
+
+                <Spinner
+                    android:id="@+id/spinnerRoomType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:entries="@array/RoomType" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:padding="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/lavender_border_text"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/secular"
+                    android:text="Internet:" />
+
+                <Spinner
+                    android:id="@+id/spinnerInternet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+
+                    android:entries="@array/Internet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:background="@drawable/lavender_border_text"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/secular"
+                    android:text="Park:" />
+
+                <Spinner
+                    android:id="@+id/spinnerPark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:entries="@array/Park" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:padding="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/lavender_border_text"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/secular"
+                    android:text="Food:" />
+
+                <Spinner
+                    android:id="@+id/spinnerFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:entries="@array/Food" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:padding="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/lavender_border_text"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/secular"
+                    android:text="Residential:" />
+
+                <Spinner
+                    android:id="@+id/spinnerResidential"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:entries="@array/Residential" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="2dp"
+                android:id="@+id/spinnerPrice"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="20"
+                android:background="@drawable/lavender_border_text"
+                android:hint="Price..."
+                android:inputType="number"
+                android:padding="20dp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/SaveButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/lavender"
+                android:src="@drawable/baseline_send_24"
+                app:tint="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <array name="RoomType">
+        <item>Select..</item>
+        <item>Single</item>
+        <item>Double</item>
+        <item>Dormitory</item>
+
+    </array>
+
+    <array name="Internet">
+        <item>Select..</item>
+        <item> Wi-Fi </item>
+        <item>No- Wi-Fi </item>
+    </array>
+
+    <array name="Park">
+        <item>Select..</item>
+        <item> Parking </item>
+        <item>No- Parking </item>
+    </array>
+
+    <array name="Food">
+        <item>Select..</item>
+        <item>"Served"</item>
+    <item>"No- serving"</item>
+    </array>
+
+    <array name="Residential">
+        <item>Select..</item>
+        <item>"Citizen"</item>
+        <item>"Foreign"</item>
+        <item>"Any"</item>
+    </array>
+
+
+</resources>

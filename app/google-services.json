@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746920649473",
+    "project_id": "hostor-adcfe",
+    "storage_bucket": "hostor-adcfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746920649473:android:1d86ba383426f186363100",
+        "android_client_info": {
+          "package_name": "com.example.hostor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746920649473-653pfk7dqs596m32q5744qnukcc3o7a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzKAyJIeS3ECWogmPhziUHovR-7l80JyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746920649473-653pfk7dqs596m32q5744qnukcc3o7a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

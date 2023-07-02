@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hostor</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="policy">
+<b>Age Restriction: </b> Users must be of age 18 years or older to use the app. \n\n
+<b>User Account Security: </b> Users must keep their account credentials confidential and not share them with others. They are responsible for any activities that occur under their account.\n\n
+<b>Compliance with Laws and Regulations: </b> Users must comply with all applicable laws, regulations, and policies while using the app, including but not limited to local, national, and international laws.\n\n
+<b>Prohibited Content: </b> It’s prohibited to post or transmit any content that is unlawful, harmful, abusive, harassing, defamatory, obscene, or otherwise objectionable.\n\n
+<b>Intellectual Property Rights: </b> All intellectual property rights related to the app, including trademarks, logos, and content, are owned by the app provider. Users are not allowed to use or reproduce such intellectual property without prior written permission.\n\n
+<b>User Conduct: </b> Outline expected user behavior, such as refraining from engaging in fraudulent activities, impersonating others, or disrupting the apps functionality. Emphasize the importance of respectful and lawful interactions with other users and hostels.\n\n
+<b>Safety and Security: </b> Encourage users to exercise caution when interacting with hostels and fellow users. Advise them to verify the accuracy of hostel information, use secure payment methods, and take appropriate safety measures during their stays.\n\n
+<b>Termination of Service: </b> The app provider reserves the right to terminate or suspend user accounts or access to the app at its sole discretion, with or without cause or notice, if a user violates the terms or engages in prohibited activities.\n\n
+<b>Limitation of Liability: </b> App provider shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use the app or any actions or interactions related to the app.\n\n
+<b>Modification of Terms: </b> Reserve the right to modify or update the terms and conditions at any time, with or without prior notice. Notify users about significant changes and advise them to review the updated terms periodically.\n\n
+<b> All rights reserved. \u00a9 2023 Hostor. </b> \n\n
+</string>
+
+    <string name="abdout_us">We are\n <b><i>- Abdurahman Abdulkareem Fahmi\n - Zain Ahmed\n </i></b>
+        students of International Islamic University in Islamabad, this App was developed for the
+        final year project of the bachelor of science in Software Engineering degree, aiming to fulfill
+        the graduation requirements, and willing to update the app for real business plans for the
+        future hence the idea of the app can be applied in any country/city in the world.\n\n
+    <b> All rights reserved. \u00a9 2023 Hostor. </b> \n </string>
+
+    <string name="Already_a_user"><u>Already a user? Login</u>.</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:background="@drawable/headder"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/userImg"
+            android:background="@drawable/ic_baseline_account_circle_24"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userName"
+        android:textSize="20sp"
+        android:maxHeight="30dp"
+        android:fontFamily="@font/secular"
+        android:text="Hello, User"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userEmail"
+        android:fontFamily="@font/russo"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>
